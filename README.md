@@ -1,5 +1,6 @@
 # DIY-Temperature-Humidity-meter
-###Easy temperature & humidity meter you can create at home
+### Easy temperature & humidity meter you can create at home
+
 So this time got myself a nice little temperature & humidity sensor named DHT11. Costed around 2$. It has 4 pins: VCC, DATA,NCC & GND. Hooked up the vcc & gnd with my arduino nano's vcc & gnd & data to digital pin. A 10k resistor was added from the data pin to the vcc of arduino in order to keep the data line high & to enable communication between the sensor & the arduino board.
 
 You need the DHT library and Liquid crystal library. 
